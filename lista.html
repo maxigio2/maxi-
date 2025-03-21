@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎂 Mi Súper Fiesta de Cumpleaños 🎂</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #FFD700, #FF6347);
+            padding: 20px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .container {
+            max-width: 90%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            position: relative;
+            border: 5px solid gold;
+        }
+        h1 {
+            color: #FF4500;
+            font-size: 32px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        li {
+            background: #ffecb3;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            border-left: 6px solid #FF4500;
+            transition: transform 0.3s ease;
+        }
+        li:hover {
+            transform: scale(1.05);
+        }
+        .decorations {
+            position: absolute;
+            width: 100%;
+            top: -10px;
+            font-size: 30px;
+            color: gold;
+            animation: bounce 1s infinite alternate;
+        }
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(10px); }
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+        }
+        .header {
+            background: black;
+            color: white;
+            font-size: 26px;
+            font-weight: bold;
+            padding: 12px;
+            border-radius: 12px;
+            display: inline-block;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 25px;
+            margin-top: 20px;
+            font-size: 18px;
+            color: white;
+            background: #FF4500;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #e63900;
+        }
+    </style>
+</head>
+<body>
+    <div class="decorations">🎊🎁🎂🎮🎈✨</div>
+    <div class="container">
+        <div class="header">MI GRAN FIESTA 🎉</div>
+        <h1>🎂 Mi Lista de Cumpleaños 🎂</h1>
+        <p>Estas son las cosas que quiero para mejorar mi PC:</p>
+        <ul>
+            <li><a href="https://www.mercadolibre.com.uy/procesador-gamer-amd-ryzen-7-5700x-100-100000926wof-de-8-nucleos-y-46ghz-de-frecuencia/p/MLU19159879">Procesador AMD Ryzen 7 5700X</a> (Mejor rendimiento que el Ryzen 5 3600 en multitarea y gaming)</li>
+            <li><a href="https://www.mercadolibre.com.uy/placa-madre-asrock-b550-steel-legend-am4-ddr4-matx-3200-mhz/p/MLU25681891">Motherboard Asrock B550M Steel Legend</a></li>
+            <li><a href="https://www.mercadolibre.com.uy/ssd-1tb-nvme-hiksemi-future-lite-7450mbs-pcie4-thermalpad/p/MLU39428689">SSD NVMe 1TB Gen 4</a></li>
+            <li><a href="https://articulo.mercadolibre.com.uy/MLU-692140948-fuente-de-poder-silverstone-750w-80-plus-gold-_JM?searchVariation=181504705772">Fuente de poder 750W 80 Plus Gold</a></li>
+            <li><a href="https://articulo.mercadolibre.com.uy/MLU-647127165-refrigeracion-liquida-cpu-cougar-poseidon-elite-360-argb-wht-_JM">Refrigeración líquida Cougar Poseidon Elite 360 ARGB</a></li>
+            <li><a href="https://www.mercadolibre.com.uy/lentes-realidad-virtual-oculus-meta-quest-3s-128gb-color-blanco-y-batman-arkham-shadow/p/MLU42748924">Meta Quest 3S</a> (Mejor resolución, procesador y tracking en comparación con las Quest 2)</li>
+        </ul>
+        <button class="button">jijijiju</button>
+        <p class="footer">Gracias por todo, lo que me regalen esta bien 😃🎮</p>
+    </div>
+</body>
+</html>
